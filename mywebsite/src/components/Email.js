@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Email.css';
-import cat from "../Images/cat.jpg"
+
 
 const Email = (props) => {
     return(

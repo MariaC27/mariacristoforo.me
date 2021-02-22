@@ -3,6 +3,11 @@ import beverly from './Images/beverly.jpeg'
 import fall from './Images/fall.jpeg'
 import plants from './Images/plants.jpeg'
 import self from './Images/self.jpeg'
+import birds from './Images/birds.jpeg'
+import cat from './Images/cat.jpeg'
+import library from './Images/library.jpeg'
+import snow from './Images/snow.jpeg'
+import park from './Images/park.jpeg'
 import './App.css';
 import Navbar from "./components/Navbar/Navbar"
 import Email from "./components/Email"
@@ -87,14 +92,18 @@ class App extends Component{
 
         <p className="description">Hello! I'm from Beverly MA, a town on the northern coast of Massachusetts. 
             I'm interested in studying CS and statistics at Dartmouth and learning Mandarin Chinese. So far, 
-            I have experience in Java, Python, Javascript, HTML, and CSS. Below are some pictures and 
-            a button to give a random jeapordy question, using a free API.  
+            I have experience in Java, Python, Javascript, HTML, and CSS. Below are some 
+            pictures I took and a button to give a random jeapordy question, using a free API. (disclaimer - it's not my cat)
         </p>
 
             <div className="images">
-              <img src={beverly} className="bevImg" alt="Beverly"/>
-              <img src={fall} alt="Fall" className="fallImg"/>
-              <img src={plants} alt="Plants" className="plantImg"/>
+              <img src={beverly} className="regImg" alt="Beverly"/>
+              <img src={park} alt="park" className="regImg"/>
+              <img src={birds} alt="birds"  className="regImg"/> 
+              <img src={fall} alt="Fall" className="regImg"/>
+              <img src={cat} alt="cat" className="regImg"/>
+              <img src={snow} alt="snow" className="horizontalImg"/>
+              <img src={library} alt="lib" className="regImg"/>
             </div>
             
           
